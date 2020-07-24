@@ -1,33 +1,10 @@
+num1 = int(input("Ingresa un numero: "))
+num2 = int(input("Ingresa otro numero: "))
+suma = 0
 
 
-print ("***** Bienvenido al menú *****")
-menu = "A"
+for num in range (num1, num2 +1):
+    suma += num
+print (suma)
 
-
-print ("Operaciones: ")
-print("S.Suma") 
-print ("R.Resta")
-print("M.Multiplicación")
-print("A.Salir")
-
-while menu == opcion :
-    opcion = input ("Qué operación desea realizar: ")
-    if opcion == 'S':
-        num1 = ("Ingrese un numero: ")
-        num2 = ("Ingrese otro numero: ")
-        resultado = num1 + num2
-        print (f"La suma es {resultado}")
-    elif opcion== 'R': 
-        num1 = ("Ingrese un numero: ")
-        num2 = ("Ingrese otro numero: ")
-        resultado = num1 - num2
-        print (f"La resta es {resultado}")
-    elif opcion== 'M': 
-        num1 = ("Ingrese un numero: ")
-        num2 = ("Ingrese otro numero: ")
-        resultado = num1 * num2
-        print (f"La multiplicación es {resultado}")
-    else: 
-        opcion = "A"
-    
 
