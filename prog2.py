@@ -1,10 +1,4 @@
-num1 = int(input("Ingresa un numero: "))
-num2 = int(input("Ingresa otro numero: "))
-suma = 0
+# programa e imprime 10 veces la palabra GIT
 
-
-for num in range (num1, num2 +1):
-    suma += num
-print (suma)
-
-
+for n in range (10):
+    print ("GIT")
