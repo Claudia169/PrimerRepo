@@ -1,4 +1,11 @@
-# programa e imprime 10 veces la palabra GIT
+#INDICA UN TEXTO Y UN NUMERO Y DE ACUERDO A ESTA IMPRIMIRA EL TEXTO CUANTAS VECES HAYA SIDO EL NUMERO INDICADO
 
-for n in range (10):
-    print ("GIT")
+def repetir(texto, numero):
+    texto += '\n'
+    print(texto*numero)
+
+#escribir el codigo para usar la funcion
+t = input("ingresa un texto: ")
+n = int(input("ingresa un numero: "))
+
+repetir(t,n)
